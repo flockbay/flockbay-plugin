@@ -1,0 +1,15 @@
+{
+  "name": "flockbay",
+  "description": "Flockbay: the Godot editor with an AI agent built in",
+  "owner": {
+    "name": "Flockbay",
+    "url": "https://flockbay.com"
+  },
+  "plugins": [
+    {
+      "name": "flockbay",
+      "source": "./plugins/flockbay",
+      "description": "Connects Claude Code to Flockbay's MCP server, so it can build, run and playtest a Godot 4 game in a live Godot editor"
+    }
+  ]
+}

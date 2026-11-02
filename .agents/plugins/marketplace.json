@@ -1,0 +1,17 @@
+{
+  "name": "flockbay",
+  "plugins": [
+    {
+      "name": "flockbay",
+      "source": {
+        "source": "local",
+        "path": "./plugins/flockbay"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "flockbay",
+  "displayName": "Flockbay",
+  "version": "1.0.0",
+  "description": "Connects Claude Code to Flockbay's MCP server, so it can build, run and playtest a Godot 4 game in a live Godot editor",
+  "author": {
+    "name": "Flockbay",
+    "url": "https://flockbay.com"
+  },
+  "homepage": "https://flockbay.com/godot-ai-mcp/",
+  "repository": "https://github.com/flockbay/flockbay-plugin",
+  "license": "MIT",
+  "keywords": ["godot", "gamedev", "mcp", "game-engine"]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "flockbay": {
+      "command": "flockbay",
+      "args": ["mcp"]
+    }
+  }
+}
