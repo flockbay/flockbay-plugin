@@ -1,0 +1,11 @@
+{
+  "name": "flockbay",
+  "version": "1.0.0",
+  "description": "Connects Gemini CLI to Flockbay's MCP server, so it can build, run and playtest a Godot 4 game in a live Godot editor",
+  "mcpServers": {
+    "flockbay": {
+      "command": "flockbay",
+      "args": ["mcp"]
+    }
+  }
+}

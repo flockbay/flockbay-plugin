@@ -1,8 +1,8 @@
-# Flockbay for Claude Code and Codex
+# Flockbay for Claude Code, Codex, Cursor and Gemini CLI
 
 Connects your coding agent to [Flockbay](https://flockbay.com), the Godot
-editor with an AI agent built in. With it, Claude Code or Codex can build,
-run and playtest a Godot 4 game in a live Godot editor:
+editor with an AI agent built in. With it, Claude Code, Codex, Cursor or
+Gemini CLI can build, run and playtest a Godot 4 game in a live Godot editor:
 - edit scenes and GDScript;
 - run the game headless and read Godot's output and parse errors;
 - send input events;
@@ -45,6 +45,24 @@ the plugin:
 codex mcp add flockbay -- flockbay mcp
 ```
 
+## Cursor
+
+Add the server to `~/.cursor/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "flockbay": { "command": "flockbay", "args": ["mcp"] }
+  }
+}
+```
+
+## Gemini CLI
+
+```bash
+gemini extensions install https://github.com/flockbay/flockbay-plugin
+```
+
 ## Without the plugin
 
 Any MCP client can run the same server:
@@ -55,6 +73,12 @@ claude mcp add --scope user flockbay -- flockbay mcp
 
 Setup for each agent, and what the tools do:
 [flockbay.com/godot-ai-mcp](https://flockbay.com/godot-ai-mcp/).
+
+## Privacy
+
+The plugin itself collects nothing: it only starts the Flockbay app's MCP
+server on your machine. The app's privacy policy is at
+[flockbay.com/privacy](https://flockbay.com/privacy/).
 
 ## License
 

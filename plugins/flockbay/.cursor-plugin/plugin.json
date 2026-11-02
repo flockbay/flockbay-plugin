@@ -1,0 +1,15 @@
+{
+  "$schema": "https://cursor.com/schemas/cursor-plugin/plugin.json",
+  "name": "flockbay",
+  "version": "1.0.0",
+  "description": "Connects Cursor to Flockbay's MCP server, so it can build, run and playtest a Godot 4 game in a live Godot editor",
+  "author": {
+    "name": "Flockbay",
+    "email": "support@flockbay.com"
+  },
+  "homepage": "https://flockbay.com/godot-ai-mcp/",
+  "repository": "https://github.com/flockbay/flockbay-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": ["godot", "gamedev", "mcp", "game-engine", "gdscript"]
+}

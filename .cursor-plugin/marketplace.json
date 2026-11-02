@@ -1,0 +1,20 @@
+{
+  "name": "flockbay",
+  "owner": {
+    "name": "Flockbay",
+    "email": "support@flockbay.com"
+  },
+  "metadata": {
+    "description": "Flockbay: the Godot editor with an AI agent built in",
+    "version": "1.0.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "flockbay",
+      "source": "flockbay",
+      "description": "Connects Cursor to Flockbay's MCP server, so it can build, run and playtest a Godot 4 game in a live Godot editor",
+      "category": "developer-tools"
+    }
+  ]
+}
