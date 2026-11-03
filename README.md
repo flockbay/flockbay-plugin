@@ -13,9 +13,14 @@ from the Flockbay app.
 
 ## Before you install
 
-Install Flockbay for Windows, Mac or Linux from
-[flockbay.com](https://flockbay.com/), and open your game in it. The plugin
-starts `flockbay mcp`, which the app puts on your PATH.
+Install Flockbay for Windows from [flockbay.com](https://flockbay.com/), and
+open your game in it. The plugin starts `flockbay mcp`, which the Windows app
+puts on your PATH; open a new terminal after installing so it is found.
+
+On a Mac or Linux the app does not put that command on your PATH yet, so the
+plugin cannot start the server there. In the app, open Connectors, then
+Connect your agent (MCP), press Turn on, and copy the line it writes for your
+machine instead.
 
 ## Claude Code
 
